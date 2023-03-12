@@ -1,0 +1,73 @@
+.ActiveGrid {
+    display: grid;
+    background-color: #181818;
+    grid-template-rows: 60px repeat(4, 100px) 60px;
+    grid-template-columns: repeat(3, 100px) 150px 50px repeat(4, 100px) 120px 100px;
+    margin: 20px;
+}
+
+.ActiveItems {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.ActiveItem1 {
+    background-color: rgb(56, 54, 54);
+    grid-column: 2/5;
+}
+
+.ActiveItem2 {
+    background-color: white;
+    color: #000000;
+    grid-column: 5/9;
+}
+
+.ActiveItem3 {
+    background-color: white;
+    color: #000000;
+    grid-column: 9/11;
+    grid-row: 1/7;
+    padding: 5px;
+    text-align: left;
+}
+
+    .ActiveItem3 > div {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        margin: 20px;
+    }
+
+.ActiveItem4 {
+    background-color: rgb(56, 54, 54);
+    grid-column: 2/9;
+    grid-row: 2/6;
+    text-align: left;
+}
+
+.ActiveFont {
+    color: black;
+    font-size: 25px;
+}
+
+.ActiveVoteFor {
+    background-color: #ee811a;
+    color: #000000;
+    grid-column: 2/5;
+    align-items: center;
+}
+
+.ActiveVoteAgainst {
+    background-color: #ee811a;
+    color: #000000;
+    text-align: center;
+    grid-column: 5/9;
+    vertical-align: middle;
+}
+
+.QueuedFont {
+    color: black;
+    font-size: 25px;
+}

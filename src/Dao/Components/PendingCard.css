@@ -1,0 +1,61 @@
+.PendingGrid {
+    display: grid;
+    grid-template-rows: 60px repeat(4, 100px);
+    grid-template-columns: repeat(3, 100px) 150px 50px repeat(4, 100px) 120px 100px;
+    margin: 20px;
+}
+
+.PendingFont {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.PendingDescriptionFont {
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.PendingID {
+    background-color: rgb(56, 54, 54);
+    grid-column: 2/5;
+}
+
+.PendingState {
+    background-color: white;
+    color: #000000;
+    grid-column: 5/9;
+}
+
+.PendingVotingStats {
+    background-color: white;
+    color: #000000;
+    grid-column: 9/11;
+    grid-row: 1/6;
+    padding-top: 60px;
+    text-align: left;
+}
+
+.PendingStatsFont {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.5px;
+}
+
+.PendingVotingStats > div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.PendingDescription {
+    background-color: rgb(56, 54, 54);
+    grid-column: 2/9;
+    grid-row: 2/6;
+}

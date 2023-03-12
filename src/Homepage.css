@@ -1,0 +1,48 @@
+.content {
+    position: absolute;
+    left: 0px;
+    top: 20%;
+}
+
+.content h1 {
+    font-size: 50px;
+    line-height: 30%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+    .container img {
+        width: 25%;
+        margin: 5%;
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px #ccc;
+        transition: all 0.5s;
+    }
+
+    .container p {
+        font-size: 20px;
+        background-color: linear-gradient(to bottom, #333, #444);
+        border-radius: 10%;
+        width: 40%;
+        padding: 4%;
+        margin: 5%;
+        box-shadow: 0px 0px 20px #ccc;
+        border: 2px #333;
+        color: white;
+        text-shadow: 1px 1px #333;
+        transition: all 0.5s;
+    }
+
+    .container p:hover {
+        box-shadow: 0px 0px 50px #ccc;
+        transform: scale(1.05);
+    }
+
+    img:hover {
+        box-shadow: 0px 0px 50px #ccc;
+        transform: scale(1.05);
+    }
